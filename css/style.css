@@ -1,0 +1,28 @@
+@import url(./nullStyle.css);
+#header .name {
+  margin: 0 0 2rem 1rem;
+}
+#header .word {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+#header .word:focus {
+  outline: none;
+}
+
+#container .dictionary-list {
+  padding: 0.7rem;
+}
+#container .delete-icon {
+  width: 1rem;
+  height: 1rem;
+}
+#container .dictionary-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
