@@ -1,4 +1,3 @@
-const newWord = document.querySelector(".word");
 let dictionaryList = document.querySelector(".dictionary-list");
 
 const showNewElement = (newWord) => {
